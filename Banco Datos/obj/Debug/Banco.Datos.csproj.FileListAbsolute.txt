@@ -1,0 +1,46 @@
+D:\Banco Proyecto\Sistema C#\CapaDatos\bin\Debug\CapaDatos.dll
+D:\Banco Proyecto\Sistema C#\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\Banco Proyecto\Sistema C#\CapaDatos\bin\Debug\Entidades.dll
+D:\Banco Proyecto\Sistema C#\CapaDatos\bin\Debug\Entidades.pdb
+D:\Banco Proyecto\Sistema C#\CapaDatos\obj\Debug\Banco.Datos.csproj.AssemblyReference.cache
+D:\Banco Proyecto\Sistema C#\CapaDatos\obj\Debug\Banco.Datos.csproj.CoreCompileInputs.cache
+D:\Banco Proyecto\Sistema C#\CapaDatos\obj\Debug\Banco.Datos.csproj.CopyComplete
+D:\Banco Proyecto\Sistema C#\CapaDatos\obj\Debug\CapaDatos.dll
+D:\Banco Proyecto\Sistema C#\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\Banco Proyecto\Sistema C#\Banco Datos\bin\Debug\Banco.Datos.dll
+D:\Banco Proyecto\Sistema C#\Banco Datos\bin\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\Sistema C#\Banco Datos\bin\Debug\Banco.Entidades.dll
+D:\Banco Proyecto\Sistema C#\Banco Datos\bin\Debug\Banco.Entidades.pdb
+D:\Banco Proyecto\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.csproj.AssemblyReference.cache
+D:\Banco Proyecto\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.csproj.CoreCompileInputs.cache
+D:\Banco Proyecto\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.csproj.CopyComplete
+D:\Banco Proyecto\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.dll
+D:\Banco Proyecto\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\bin\Debug\Banco.Datos.dll
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\bin\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\bin\Debug\Banco.Entidades.dll
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\bin\Debug\Banco.Entidades.pdb
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.csproj.AssemblyReference.cache
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.csproj.CoreCompileInputs.cache
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.csproj.CopyComplete
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.dll
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\bin\Debug\Banco.Datos.dll
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\bin\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\bin\Debug\Banco.Entidades.dll
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\bin\Debug\Banco.Entidades.pdb
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.csproj.AssemblyReference.cache
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.csproj.CoreCompileInputs.cache
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.csproj.CopyComplete
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.dll
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.csproj.AssemblyReference.cache
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.csproj.CoreCompileInputs.cache
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\Banco Datos\bin\Debug\Banco.Datos.dll.config
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\Banco Datos\bin\Debug\Banco.Datos.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\Banco Datos\bin\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\Banco Datos\bin\Debug\Banco.Entidades.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\Banco Datos\bin\Debug\Banco.Entidades.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\Banco Datos\obj\Debug\Banco.Datos.csproj.CopyComplete

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ticket de Transacción Bancaria</title>
+    <style>
+        body {
+            font-family: Monospace;
+        }
+
+        .ticket {
+            width: 350px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .transaction-details {
+            margin-bottom: 15px;
+        }
+
+        .barcode {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ticket">
+        <div class="header">
+            <span>BANCO INTERNACIONAL DE VISA</span><br />
+            <span>CENTRO COMERCIAL PLAZA MUNDO, ANCLA A,</span><br />
+            <span>KM 4 1/2 BOULEVARD DEL EJERCITO,</span><br />
+            <span>SOYAPANGO, SAN SALVADOR</span><br />
+            <span>Reg. 193-7</span><br />
+            <span>Iva DL 296BNit 0614-110169-001-1</span><br />
+            <span>CALLEJA S.A DE C.V</span><br />
+            <span>GIRO -- TRANSACCION EN AGENCIA</span><br />
+            <span>RESOLUCION -- 15044-RES-CR-40149-2023</span><br />
+            <span>DE -- 20SD12602219/1 AL 20SD12602219/999999</span><br />
+            <span>FECHA DE RESOLUCION -- 25/09/2023</span>
+        </div>
+        <span>------------------------------------------------</span>
+        <div class="transaction-details">
+            <label>Rec.: 0000002219001195527</label><br />
+            <label>Cajero: 9984664GISSELL</label>
+            <label>Trans.: 1476404</label><br />
+            <label>Supervisor: 9972681 DAVID</label><br />
+            <label>Suc.: S0203</label>
+            <label>Caja: 2219</label><br />
+            <label>Fecha: 01/12/2023 03:24:47 p.m.</label><br />
+        </div>
+        <span>Nro. Preferencia: 089067</span><br />
+        <span>------------------------------------------------</span><br />
+        <div class="header">
+            <span>SUB AGENTE DE ABONOS Y PAGOS</span><br />
+            <span>VISA Ltda. de C.V.</span><br />
+            <span>PARA CONSULTAS O RECLAMOS DE ABONOS:</span><br />
+            <span>Tel. 2271-9600</span><br />
+        </div>
+
+        <div class="transaction-details">
+            <label>PAGO ABONO VISA</label>
+        </div>
+
+        <!-- Corrección en la sección con etiquetas <label> -->
+        <div class="transaction-header">
+            <label>Afiliado: 0000002219001195527</label><br />
+            <label>Abono: 9984664GISSELL</label><br />
+            <label>Remitente: CESAR OVIDIO MARTINEZ CHICAS</label><br />
+            <label>Mo. Documento: 066020547</label><br />
+            <label>País Origen: SLV</label><br />
+            <label>País Destino: SLV</label><br />
+            <label>MSG: </label><br />
+            <label>No. Autor: 217000</label><br />
+        </div>
+        <br />
+        <!-- Corrección en la sección final de etiquetas <div class="header"> -->
+        <div class="header">
+            <label>F ----------------------------</label><br /> <br />
+            <label>PAGARE INCONDICIONALMENTE A LA</label><br />
+            <label>ORDEN Y BAJO LAS CONDICIONES</label><br />
+            <label>ESTABLECIDAS POR EL EMISOR</label><br />
+        </div>
+        <span>------------------------------------------------</span>
+        <span>ABONO</span><br />
+        <span>------------------------------------------------</span>
+
+        <div class="transaction-details">
+            <label>TOTAL A PAGAR $: </label><br />
+        </div>
+
+        <div class="barcode">
+            <img src="{{CODIGO_DE_BARRAS}}" alt="Código de barras">
+        </div>
+
+        <div class="header">
+            <label>GRACIAS POR TU COMPRA</label><br /> <br />
+            <label>BANCO INTERNACIONAL VISA. TU BANCO</label><br />
+            <label>www.bancovisa.com</label><br />
+            <label>SERVICIO AL CLIENTE TE. 2267-6767</label><br />
+            <label>Para reclamos presentar este Ticket</label><br />
+            <label>y tu Documento de Identidad Personal</label><br />
+        </div>
+
+        <div class="header">
+            <label>"Adquiere ya tu tarjeta de ahorro</label><br />
+            <label>en cualquiera de nuestras agencias y</label><br />
+            <label>recibe beneficios adicionales que solo</label><br />
+            <label>encuentras en tu banco Internacional Visa"!</label>
+        </div>
+
+        <div class="footer">
+            <p>¡Gracias por su transacción!</p>
+        </div>
+    </div>
+</body>
+</html>
