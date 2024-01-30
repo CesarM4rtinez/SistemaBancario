@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="OVI_PRODUCCION.DataMart_SisBanca.SA"
+  DTS:DTSID="{F56A1BDD-609A-4FF2-912C-4B9F8E2D8FDA}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=OVI\PRODUCCION;User ID=SA;Initial Catalog=DataMart_SisBanca;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Integration Services SISTEMA BANCARIO-{F56A1BDD-609A-4FF2-912C-4B9F8E2D8FDA}OVI\PRODUCCION.DataMart_SisBanca.SA;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHRLCL4dqYUONKMlsLIFOzwAAAAACAAAAAAAQZgAAAAEAACAAAACVXZhtCMgtOM7n7ncZfH+Ik7Xbi35SjpyqeJn4ND8c9gAAAAAOgAAAAAIAACAAAABzZDogk3s8d2wpEqMGTAtRxly5eTwlP8qqUQUCXD5XsoAAAABFBRWa/lFwBptv9kqSEJIEWYM+ZHA3wik+4Qii8snUsij1VFqGtdKliwH1Q5kiSiTLgJrkrgaYy7RFL6R8k2KsO+cBaE1qTYttPD13fOEmd2SkNYnEEAvVRyZr0LxXj+v3BzJqNyCVBzt3m79OJtcw/99PvHYnbMOAe9S95br+20AAAACUI1kwJHl8I9Uc8PlcFpzUQvS0zK5M+sZAB7LZ/KC28HzMchVNXvnolJEA5O0SpEVMgBGI51N7VeygVVB8EOal</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

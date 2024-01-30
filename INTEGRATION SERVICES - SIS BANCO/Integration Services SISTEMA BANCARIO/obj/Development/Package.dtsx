@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/21/2023 8:25:22 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="OVI"
+  DTS:CreatorName="OVI\ovimy"
+  DTS:DTSID="{7B244B68-D527-4E1E-92AC-EAC61FD6CF61}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5314.0"
+  DTS:LocaleID="2058"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{90528725-3BBE-4DD8-9047-D19CDBABB74D}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\POBANCO DIMENSON DE HECHOS"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{041587B4-D62F-4DD5-962D-11D6990FCF06}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="POBANCO DIMENSON DE HECHOS"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{F56A1BDD-609A-4FF2-912C-4B9F8E2D8FDA}"
+          SQLTask:SqlStatementSource="USE DataMart_SisBanca&#xA;GO&#xA;&#xA;DELETE FROM DataMart_SisBanca.dbo.HECHOS&#xA;GO&#xA;&#xA;INSERT INTO DataMart_SisBanca.dbo.HECHOS (ID_TIPO_TRANSACCION,FECHA,ID_DIM_CLIENTE,ENTRADA,SALIDA)&#xA;SELECT 1,F.FECHA,DC.ID_DIM_CLIENTE,0 MONTO_ENTRADA,SUM(T.MONTO_SALIDA)MONTO_SALIDA FROM &#xA;(select ID_CLIENTE,CONVERT(DATE,FECHA_REGISTRO) FECHA_REGISTRO,MONTO_SALIDA from SISTEMA_BANCARIO.DBO.MOVIMIENTO_TARJETA) T INNER JOIN DIM_TIEMPO F ON F.FECHA = T.FECHA_REGISTRO&#xA;INNER JOIN SISTEMA_BANCARIO.DBO.CLIENTE C ON T.ID_CLIENTE = C.ID_CLIENTE&#xA;INNER JOIN DataMart_SisBanca.DBO.DIM_CLIENTE DC ON DC.ID_CLIENTE = T.ID_CLIENTE&#xA;GROUP BY F.FECHA,DC.ID_DIM_CLIENTE&#xA;&#xA;UNION ALL&#xA;SELECT 2,F.FECHA,DC.ID_DIM_CLIENTE,SUM(T.MONTO_ENTRADA)MONTO_ENTRADA,SUM(T.MONTO_SALIDA)MONTO_SALIDA &#xA;FROM &#xA;(SELECT ID_CLIENTE,CONVERT(DATE,FECHA_REGISTRO)FECHA_REGISTRO,MONTO_ENTRADA,MONTO_SALIDA FROM SISTEMA_BANCARIO.DBO.MOVIMIENTO_CUENTA) T INNER JOIN DIM_TIEMPO F ON F.FECHA = T.FECHA_REGISTRO&#xA;INNER JOIN SISTEMA_BANCARIO.DBO.CLIENTE C ON T.ID_CLIENTE = C.ID_CLIENTE&#xA;INNER JOIN DataMart_SisBanca.DBO.DIM_CLIENTE DC ON DC.ID_CLIENTE = T.ID_CLIENTE&#xA;GROUP BY F.FECHA,DC.ID_DIM_CLIENTE&#xA;&#xA;UNION ALL&#xA;SELECT 3,F.FECHA,DC.ID_DIM_CLIENTE,0 MONTO_ENTRADA,SUM(T.MONTO_SALIDA)MONTO_SALIDA FROM &#xA;(SELECT ID_CLIENTE,CONVERT(DATE,FECHA_REGISTRO)FECHA_REGISTRO,MONTO_SALIDA FROM SISTEMA_BANCARIO.DBO.MOVIMIENTO_ABONO) T INNER JOIN DIM_TIEMPO F ON F.FECHA = T.FECHA_REGISTRO&#xA;INNER JOIN SISTEMA_BANCARIO.DBO.CLIENTE C ON T.ID_CLIENTE = C.ID_CLIENTE&#xA;INNER JOIN DataMart_SisBanca.DBO.DIM_CLIENTE DC ON DC.ID_CLIENTE = T.ID_CLIENTE&#xA;GROUP BY F.FECHA,DC.ID_DIM_CLIENTE&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\POBLANDO DIMENSION CLIENTE"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{274E617B-4337-46F8-9B95-E0384594E303}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="POBLANDO DIMENSION CLIENTE"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{F56A1BDD-609A-4FF2-912C-4B9F8E2D8FDA}"
+          SQLTask:SqlStatementSource="USE DataMart_SisBanca&#xA;GO&#xA;--FLUJO 1 POBLANDO DIMENSION CLIENTES&#xA;DELETE FROM DataMart_SisBanca.dbo.DIM_CLIENTE&#xA;GO&#xA;INSERT INTO DataMart_SisBanca.dbo.DIM_CLIENTE (ID_CLIENTE,NOM_CLIENTE,APE_PATE_CLIENTE,APE_MATE_CLIENTE)&#xA;SELECT ID_CLIENTE,NOM_CLIENTE,APE_PATE_CLIENTE,APE_MATE_CLIENTE FROM SISTEMA_BANCARIO.DBO.CLIENTE&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción]"
+      DTS:CreationName=""
+      DTS:DTSID="{E75E3265-B6E1-4114-A3E5-0DABAA50716A}"
+      DTS:From="Package\POBLANDO DIMENSION CLIENTE"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción"
+      DTS:To="Package\POBANCO DIMENSON DE HECHOS" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="253.6,41.6"
+          Id="Package\POBANCO DIMENSON DE HECHOS"
+          TopLeft="339.166648135418,251.333331585593" />
+        <NodeLayout
+          Size="244.8,41.6"
+          Id="Package\POBLANDO DIMENSION CLIENTE"
+          TopLeft="348.33331430124,122.199999150236" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción]"
+          TopLeft="468.349981218329,163.799999150236">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,87.5333324353561"
+              Start="0,0"
+              End="0,80.0333324353561">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,80.0333324353561" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
