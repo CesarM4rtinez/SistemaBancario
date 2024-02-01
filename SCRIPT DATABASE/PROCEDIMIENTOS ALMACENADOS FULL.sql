@@ -264,7 +264,7 @@ END
 GO
 
 -------------------------------------------------------------------
--- PANEL DE DESICIÓN CLIENTE
+-- PANEL DE DESICIÃ“N CLIENTE
 -------------------------------------------------------------------
 
 CREATE PROC USP_ListadoTipoCliente      
@@ -479,7 +479,7 @@ BEGIN
             @nID_CLIENTE,
             @cID_CUENTA,
             @cID_TP_TARJETA,
-            @nSALDO_DISPONIBLE, -- Utiliza el límite obtenido
+            @nSALDO_DISPONIBLE, -- Utiliza el lÃ­mite obtenido
             1
         )
     END;
@@ -519,7 +519,7 @@ BEGIN
 END
 GO
 -------------------------------------------------------------------
--- PANELES DE DESICIÓN TARJETAS DE CREDITO
+-- PANELES DE DESICIÃ“N TARJETAS DE CREDITO
 -------------------------------------------------------------------
 
 CREATE PROCEDURE USP_ListadoTarjetaCreditoCliente        
@@ -818,7 +818,7 @@ BEGIN
 END
 GO
 -------------------------------------------------------------------
--- PANELES DE DESICIÓN DE CUENTA
+-- PANELES DE DESICIÃ“N DE CUENTA
 -------------------------------------------------------------------
 
 CREATE PROCEDURE USP_ListadoCuentaCliente
@@ -1203,7 +1203,7 @@ END
 GO
 
 -------------------------------------------------------------------
--- PANELES DE DESICIÓN DE PRESTAMOS
+-- PANELES DE DESICIÃ“N DE PRESTAMOS
 -------------------------------------------------------------------
 
 CREATE PROCEDURE USP_ListadoPrestamo_Cliente
@@ -1365,7 +1365,7 @@ BEGIN
 	    ID_USER,
         FECHA_REGISTRO,
 		USUARIO,
-		CONTRASEÑA,
+		CONTRASEÃ‘A,
 		ADMIN,
 		PRESTAMOS,
 		CUENTAS,
@@ -1375,7 +1375,7 @@ BEGIN
    WHERE ESTADO = 1
     AND (
            USUARIO      LIKE '%' + @cTexto + '%'
-		OR CONTRASEÑA   LIKE '%' + @cTexto + '%'
+		OR CONTRASEÃ‘A   LIKE '%' + @cTexto + '%'
         )
 	ORDER BY ID_USER DESC
 END
@@ -1390,7 +1390,7 @@ BEGIN
 	    ID_USER,
         FECHA_REGISTRO,
 		USUARIO,
-		CONTRASEÑA,
+		CONTRASEÃ‘A,
 		ADMIN,
 		PRESTAMOS,
 		CUENTAS,
@@ -1400,7 +1400,7 @@ BEGIN
    WHERE ESTADO = 0
     AND (
            USUARIO      LIKE '%' + @cTexto + '%'
-		OR CONTRASEÑA   LIKE '%' + @cTexto + '%'
+		OR CONTRASEÃ‘A   LIKE '%' + @cTexto + '%'
         )
 	ORDER BY ID_USER DESC
 END
@@ -1411,7 +1411,7 @@ CREATE PROCEDURE USP_GuardarUsuarios
 @nOpcion                INT = 0,
 @cID_USER               INT = 0,
 @cUSUARIO               VARCHAR(15),
-@cCONTRASEÑA            VARCHAR(15),
+@cCONTRASEÃ‘A            VARCHAR(15),
 @cADMIN                 BIT,
 @cPRESTAMOS             BIT,
 @cCUENTAS               BIT,
@@ -1423,7 +1423,7 @@ AS
 		INSERT INTO 
 		        USUARIO_EM(
 				USUARIO,
-				CONTRASEÑA,
+				CONTRASEÃ‘A,
 				ADMIN,
 				PRESTAMOS,
 				CUENTAS,
@@ -1433,7 +1433,7 @@ AS
 			VALUES 
 			   (
 				@cUSUARIO,
-				@cCONTRASEÑA,
+				@cCONTRASEÃ‘A,
 				@cADMIN,
 				@cPRESTAMOS,
 				@cCUENTAS,
@@ -1445,7 +1445,7 @@ AS
 	BEGIN
 		 UPDATE USUARIO_EM     SET
 				USUARIO      = @cUSUARIO,
-				CONTRASEÑA   = @cCONTRASEÑA,
+				CONTRASEÃ‘A   = @cCONTRASEÃ‘A,
 				ADMIN        = @cADMIN,
 				PRESTAMOS    = @cPRESTAMOS,
 				CUENTAS      = @cCUENTAS,
@@ -1482,17 +1482,17 @@ GO
 -- EXEC USP_LevantarUsuarios
 
 -------------------------------------------------------------------
--- PARA EL LOGEO DEL SISTEMA -- ¡PRECAUTION! ... NO TOCAR!!!!
+-- PARA EL LOGEO DEL SISTEMA -- Â¡PRECAUTION! ... NO TOCAR!!!!
 -------------------------------------------------------------------
 CREATE PROCEDURE USP_LoginUS
     @USUARIO VARCHAR(50),
-    @CONTRASEÑA VARCHAR(50) -- Suponiendo que la contraseña está almacenada como texto en la base de datos
+    @CONTRASEÃ‘A VARCHAR(50) -- Suponiendo que la contraseÃ±a estÃ¡ almacenada como texto en la base de datos
 AS
 BEGIN
     SELECT *
     FROM  V_EMPLEADO
-    WHERE USUARIO = @USUARIO AND CONTRASEÑA = @CONTRASEÑA
-	      AND ESTADO_US = 1 -- Debes aplicar hash a la contraseña antes de almacenarla y compararla
+    WHERE USUARIO = @USUARIO AND CONTRASEÃ‘A = @CONTRASEÃ‘A
+	      AND ESTADO_US = 1 -- Debes aplicar hash a la contraseÃ±a antes de almacenarla y compararla
 END
 GO
 -- EXEC USP_LoginUS
@@ -1760,7 +1760,7 @@ END
 GO
 
 -------------------------------------------------------------------
--- PANELES DE DESICIÓN EMPLEADO
+-- PANELES DE DESICIÃ“N EMPLEADO
 -------------------------------------------------------------------
 CREATE PROCEDURE USP_ListadoEmpleado_Cargo
 AS
@@ -2007,7 +2007,7 @@ GO
 -- EXEC USP_LevantarMovimientoAbono
 
 -------------------------------------------------------------------
--- PANELES DE DESICIÓN DE MOVIMIENTOS DE ABONO
+-- PANELES DE DESICIÃ“N DE MOVIMIENTOS DE ABONO
 -------------------------------------------------------------------
 CREATE PROCEDURE USP_ListadoMovimientoAbono_Cuenta
 AS
@@ -2214,7 +2214,7 @@ BEGIN
     FROM CUENTA
     WHERE ID_CUENTA = @cID_CUENTA
 
-    -- Verificar si el monto de salida hará que el saldo disponible sea menor que cero
+    -- Verificar si el monto de salida harÃ¡ que el saldo disponible sea menor que cero
     IF (@nSaldoActual - @cMONTO_SALIDA) < 0
     BEGIN
       RAISERROR('El saldo de la cuenta de ahorro no puede ser negativo.', 16, 1)
@@ -2284,7 +2284,7 @@ END
 GO
 
 -------------------------------------------------------------------
--- PANELES DE DESICIÓN DE MOVIMIENTOS DE CUENTAS
+-- PANELES DE DESICIÃ“N DE MOVIMIENTOS DE CUENTAS
 -------------------------------------------------------------------
 CREATE PROCEDURE USP_ListadoMovimientoCuenta_Cuenta
 AS
@@ -2463,7 +2463,7 @@ AS
 BEGIN
   DECLARE @nSaldoActual DECIMAL
   
-  -- Obtener el saldo actual de la tarjeta de crédito
+  -- Obtener el saldo actual de la tarjeta de crÃ©dito
   SELECT @nSaldoActual = SALDO_DISPONIBLE
   FROM TARJETA_CREDITO
   WHERE ID_TARJETA_CREDITO = @cID_TARJETA_CREDITO
@@ -2471,7 +2471,7 @@ BEGIN
   -- Verificar si el monto de salida no causa un saldo negativo
   IF (@nSaldoActual - @cMONTO_SALIDA) < 0
   BEGIN
-    RAISERROR('El monto de salida excede el saldo disponible en la tarjeta de crédito.', 16, 1)
+    RAISERROR('El monto de salida excede el saldo disponible en la tarjeta de crÃ©dito.', 16, 1)
     RETURN
   END
 
@@ -2533,7 +2533,7 @@ END
 GO
 
 -------------------------------------------------------------------
--- PANELES DE DESICIÓN DE MOVIMIENTOS DE TARJETAS
+-- PANELES DE DESICIÃ“N DE MOVIMIENTOS DE TARJETAS
 -------------------------------------------------------------------
 CREATE PROCEDURE USP_ListadoMovimientoTarjeta_TarjetaCredito
 AS
