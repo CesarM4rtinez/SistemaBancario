@@ -1,4 +1,7 @@
-/* CREACI�N DE VISTAS DE SISTEMA BANCARIO */
+-- © 2023 César Martínez Engineer. All Copyright
+-- CREADOR DEL CODIGO T-SQL -> CÉSAR OVIDIO MARTÍNEZ CHICAS.
+
+/* CREACIÓN DE VISTAS DE SISTEMA BANCARIO */
 USE SISTEMA_BANCARIO
 GO
 --------------------------------------------------------------------------------------------------------------------
@@ -84,7 +87,7 @@ SELECT
 	CE.ID_CARGO_EM,
     CE.NOM_CARGO,
     U.USUARIO,
-    U.CONTRASE�A,
+    U.CONTRASEÑA,
     U.ADMIN,
 	U.PRESTAMOS,
 	U.CUENTAS,
