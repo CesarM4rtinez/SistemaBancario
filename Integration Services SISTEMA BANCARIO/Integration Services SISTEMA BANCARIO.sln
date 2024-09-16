@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Integration Services SISTEMA BANCARIO", "Integration Services SISTEMA BANCARIO.dtproj", "{413CAD30-2DF5-42C5-95B2-7D2470256832}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{413CAD30-2DF5-42C5-95B2-7D2470256832}.Development|Default.ActiveCfg = Development
+		{413CAD30-2DF5-42C5-95B2-7D2470256832}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D519B57-E125-43CE-AF09-03876FC594F6}
+	EndGlobalSection
+EndGlobal

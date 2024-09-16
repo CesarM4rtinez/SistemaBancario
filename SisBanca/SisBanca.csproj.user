@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\INSTALADOR SISTEMA BANCARIO\|D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\|D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\Instalador\|D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\|D:\INSTALADOR BANCO\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>es-ES</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

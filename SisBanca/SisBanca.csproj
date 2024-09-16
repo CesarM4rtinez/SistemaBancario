@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E0D0101-2060-4F31-8DF3-CFFA24C23D78}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SisBanca</RootNamespace>
+    <AssemblyName>SisBanca</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\INSTALADOR SISTEMA BANCARIO\</PublishUrl>
+    <Install>false</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>11</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>321C31BF28C44C84C3D8A23BF3EB6D08094B52CF</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SisBanca_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.1, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\iTextSharp.5.5.13.1\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>packages\itextsharp.xmlworker.5.5.13\lib\itextsharp.xmlworker.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>packages\ZXing.Net.0.16.9\lib\net48\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.9.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>packages\ZXing.Net.0.16.9\lib\net48\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm_MovimientoCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_MovimientoCuenta.Designer.cs">
+      <DependentUpon>Frm_MovimientoCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_CargoEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_CargoEmpleados.Designer.cs">
+      <DependentUpon>Frm_CargoEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Cuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Cuentas.Designer.cs">
+      <DependentUpon>Frm_Cuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DetalleCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DetalleCliente.Designer.cs">
+      <DependentUpon>Frm_DetalleCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Dashboard.Designer.cs">
+      <DependentUpon>Frm_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DetalleEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DetalleEmpleados.Designer.cs">
+      <DependentUpon>Frm_DetalleEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_MovimientoAbono.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_MovimientoAbono.Designer.cs">
+      <DependentUpon>Frm_MovimientoAbono.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DetallePrestamos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DetallePrestamos.Designer.cs">
+      <DependentUpon>Frm_DetallePrestamos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login.Designer.cs">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_MovimientoTarjeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_MovimientoTarjeta.Designer.cs">
+      <DependentUpon>Frm_MovimientoTarjeta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Sucursales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Sucursales.Designer.cs">
+      <DependentUpon>Frm_Sucursales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_TarjetasCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_TarjetasCredito.Designer.cs">
+      <DependentUpon>Frm_TarjetasCredito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_TipoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_TipoCliente.Designer.cs">
+      <DependentUpon>Frm_TipoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_TipoCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_TipoCuentas.Designer.cs">
+      <DependentUpon>Frm_TipoCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_TipoPagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_TipoPagos.Designer.cs">
+      <DependentUpon>Frm_TipoPagos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_TipoPrestamos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_TipoPrestamos.Designer.cs">
+      <DependentUpon>Frm_TipoPrestamos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_TiposTarjetas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_TiposTarjetas.Designer.cs">
+      <DependentUpon>Frm_TiposTarjetas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_UsuarioSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_UsuarioSistema.Designer.cs">
+      <DependentUpon>Frm_UsuarioSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_CargoEmpleados.resx">
+      <DependentUpon>Frm_CargoEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Cuentas.resx">
+      <DependentUpon>Frm_Cuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Dashboard.resx">
+      <DependentUpon>Frm_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DetalleCliente.resx">
+      <DependentUpon>Frm_DetalleCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DetalleEmpleados.resx">
+      <DependentUpon>Frm_DetalleEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_MovimientoAbono.resx">
+      <DependentUpon>Frm_MovimientoAbono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DetallePrestamos.resx">
+      <DependentUpon>Frm_DetallePrestamos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Login.resx">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_MovimientoCuenta.resx">
+      <DependentUpon>Frm_MovimientoCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_MovimientoTarjeta.resx">
+      <DependentUpon>Frm_MovimientoTarjeta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Sucursales.resx">
+      <DependentUpon>Frm_Sucursales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TarjetasCredito.resx">
+      <DependentUpon>Frm_TarjetasCredito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TipoCliente.resx">
+      <DependentUpon>Frm_TipoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TipoCuentas.resx">
+      <DependentUpon>Frm_TipoCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TipoPagos.resx">
+      <DependentUpon>Frm_TipoPagos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TipoPrestamos.resx">
+      <DependentUpon>Frm_TipoPrestamos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TiposTarjetas.resx">
+      <DependentUpon>Frm_TiposTarjetas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_UsuarioSistema.resx">
+      <DependentUpon>Frm_UsuarioSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SisBanca_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visa 256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Banco Datos\Banco.Datos.csproj">
+      <Project>{a913f812-63f3-478a-9352-a38cb0a58200}</Project>
+      <Name>Banco.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banco Entidades\Banco.Entidades.csproj">
+      <Project>{09a43ff9-6d5c-4d7d-8765-bd027bbe4b08}</Project>
+      <Name>Banco.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Banco Negocio\Banco.Negocio.csproj">
+      <Project>{e2d44d17-2c5c-40cf-b288-db269a9a6b49}</Project>
+      <Name>Banco.Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa-3d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deshacer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-carpeta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actualizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reporte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar-sesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaCargoEmpleados.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaClientes.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaCuentas.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaEmpleados.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaMovimientoAbono.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaMovimientoCuenta.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaMovimientoTarjeta.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaPrestamos.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaSucursales.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaTarjetasCredito.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaTipoCliente.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaTipoCuentas.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaTipoPagos.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaTipoPrestamos.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaTipoTarjetas.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantillaUsuarioSistema.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BannerYT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\idea 32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\base-de-datos- bak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\validando-billete.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\Ticket_Abonos.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

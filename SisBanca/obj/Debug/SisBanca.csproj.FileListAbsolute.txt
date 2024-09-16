@@ -1,0 +1,227 @@
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\SisBanca.exe.config
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\SisBanca.exe
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\SisBanca.pdb
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\Banco.Datos.dll
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\Banco.Entidades.dll
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\Banco.Negocio.dll
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\EntityFramework.dll
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\EntityFramework.SqlServer.dll
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\Banco.Entidades.pdb
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\Banco.Negocio.pdb
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\EntityFramework.xml
+D:\Banco Proyecto\Sistema C#\SisBanca\bin\Debug\EntityFramework.SqlServer.xml
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.AssemblyReference.cache
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_CargoEmpleados.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Cuentas.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Dashboard.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetalleCliente.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetalleEmpleados.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetalleMovimiento.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetallePrestamos.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetalleTransacciones.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Login.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_PagoAbono.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TarjetasCredito.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoCliente.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoCuentas.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoPagos.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoPrestamos.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TiposTarjetas.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_UsuarioSistema.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.Properties.Resources.resources
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.GenerateResource.cache
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.CoreCompileInputs.cache
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.CopyComplete
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.exe
+D:\Banco Proyecto\Sistema C#\SisBanca\obj\Debug\SisBanca.pdb
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\SisBanca.exe.config
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\SisBanca.exe.manifest
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\SisBanca.application
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\SisBanca.exe
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\SisBanca.pdb
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\Banco.Datos.dll
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\Banco.Entidades.dll
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\Banco.Negocio.dll
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\EntityFramework.dll
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\EntityFramework.SqlServer.dll
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\itextsharp.dll
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\itextsharp.xmlworker.dll
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\Banco.Entidades.pdb
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\Banco.Negocio.pdb
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\EntityFramework.xml
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\EntityFramework.SqlServer.xml
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\itextsharp.xml
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.AssemblyReference.cache
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_CargoEmpleados.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Cuentas.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Dashboard.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetalleCliente.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetalleEmpleados.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_MovimientoAbono.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetallePrestamos.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Login.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_MovimientoCuenta.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_MovimientoTarjeta.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Sucursales.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TarjetasCredito.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoCliente.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoCuentas.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoPagos.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoPrestamos.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TiposTarjetas.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_UsuarioSistema.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Properties.Resources.resources
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.GenerateResource.cache
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.CoreCompileInputs.cache
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.exe.manifest
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.application
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.CopyComplete
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.exe
+D:\Banco Proyecto\PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.pdb
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\SisBanca.exe.config
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\SisBanca.exe.manifest
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\SisBanca.application
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\SisBanca.exe
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\SisBanca.pdb
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\Banco.Datos.dll
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\Banco.Entidades.dll
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\Banco.Negocio.dll
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\EntityFramework.dll
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\EntityFramework.SqlServer.dll
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\itextsharp.dll
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\itextsharp.xmlworker.dll
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\Banco.Entidades.pdb
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\Banco.Negocio.pdb
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\EntityFramework.xml
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\EntityFramework.SqlServer.xml
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\bin\Debug\itextsharp.xml
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.AssemblyReference.cache
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_CargoEmpleados.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Cuentas.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Dashboard.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetalleCliente.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetalleEmpleados.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_MovimientoAbono.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetallePrestamos.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Login.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_MovimientoCuenta.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_MovimientoTarjeta.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Sucursales.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TarjetasCredito.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoCliente.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoCuentas.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoPagos.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoPrestamos.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TiposTarjetas.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_UsuarioSistema.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.Properties.Resources.resources
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.GenerateResource.cache
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.CoreCompileInputs.cache
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.exe.manifest
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.application
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.CopyComplete
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.exe
+D:\Banco Proyecto\MC1832012022 - PROYECTO DE CÁTEDRA DE PROGRAMACIÓN II\Sistema C#\SisBanca\obj\Debug\SisBanca.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\SisBanca.exe.config
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\SisBanca.exe.manifest
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\SisBanca.application
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\SisBanca.exe
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\SisBanca.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\Banco.Datos.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\Banco.Entidades.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\Banco.Negocio.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\EntityFramework.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\EntityFramework.SqlServer.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\itextsharp.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\itextsharp.xmlworker.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\Banco.Entidades.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\Banco.Negocio.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\EntityFramework.xml
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\EntityFramework.SqlServer.xml
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\itextsharp.xml
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.AssemblyReference.cache
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_CargoEmpleados.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Cuentas.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Dashboard.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetalleCliente.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetalleEmpleados.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_MovimientoAbono.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_DetallePrestamos.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Login.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_MovimientoCuenta.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_MovimientoTarjeta.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_Sucursales.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TarjetasCredito.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoCliente.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoCuentas.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoPagos.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TipoPrestamos.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_TiposTarjetas.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Frm_UsuarioSistema.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.Properties.Resources.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.GenerateResource.cache
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.CoreCompileInputs.cache
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.exe.manifest
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.application
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.csproj.CopyComplete
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.exe
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\obj\Debug\SisBanca.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\Banco.Datos.dll.config
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\zxing.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\zxing.presentation.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\zxing.xml
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema C#\SisBanca\bin\Debug\zxing.presentation.xml
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\SisBanca.exe.config
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\SisBanca.exe.manifest
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\SisBanca.application
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\SisBanca.exe
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\SisBanca.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\Banco.Datos.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\Banco.Entidades.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\Banco.Negocio.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\EntityFramework.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\EntityFramework.SqlServer.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\itextsharp.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\itextsharp.xmlworker.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\zxing.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\zxing.presentation.dll
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\Banco.Datos.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\Banco.Datos.dll.config
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\Banco.Entidades.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\Banco.Negocio.pdb
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\EntityFramework.xml
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\EntityFramework.SqlServer.xml
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\itextsharp.xml
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\zxing.xml
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\bin\Debug\zxing.presentation.xml
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.csproj.AssemblyReference.cache
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_CargoEmpleados.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_Cuentas.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_Dashboard.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_DetalleCliente.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_DetalleEmpleados.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_MovimientoAbono.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_DetallePrestamos.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_Login.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_MovimientoCuenta.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_MovimientoTarjeta.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_Sucursales.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_TarjetasCredito.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_TipoCliente.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_TipoCuentas.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_TipoPagos.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_TipoPrestamos.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_TiposTarjetas.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Frm_UsuarioSistema.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.Properties.Resources.resources
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.csproj.GenerateResource.cache
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.csproj.CoreCompileInputs.cache
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.exe.manifest
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.application
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.csproj.CopyComplete
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.exe
+D:\Banco Proyecto\SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHCIAS\Sistema Bancario .NET C#\SisBanca\obj\Debug\SisBanca.pdb
