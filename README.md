@@ -30,7 +30,7 @@ SistemaBancario/
 │   ├── Banco Datos/
 │   ├── Banco Entidades/
 │   ├── Banco Negocio/
-│   ├── SisBanca/
+│   └── SisBanca/
 │   
 ├── César Martínez Engineer - DICCIONARIO DE DATOS - Database SISTEMA BANCARIO.pdf
 └── SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHICAS.pdf
