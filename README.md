@@ -11,7 +11,9 @@
 <h3 align="center">Modelo de investigación aplicada</h3>
 <img align="center" src="https://github.com/CesarM4rtinez/CesarM4rtinez/blob/main/BancoPromerica.jpg?raw=true" alt="ovi-pw"/>
 
+## **Proyecto**
 A continuación se muestra un ejemplo de cómo se debería ver la estructura del proyecto:
+```
 SistemaBancario/
 ├── DATAMART PowerBI/
 |   └── INTEGRATION SERVICES - SIS BANCO/
@@ -32,3 +34,4 @@ SistemaBancario/
 │   
 ├── César Martínez Engineer - DICCIONARIO DE DATOS - Database SISTEMA BANCARIO.pdf
 └── SISTEMA BANCARIO - CÉSAR OVIDIO MARTÍNEZ CHICAS.pdf
+```
